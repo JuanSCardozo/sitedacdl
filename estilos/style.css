@@ -32,8 +32,9 @@ header {
 .patrociniomaster {
     color: white;
     padding: 10px;
-    margin: 0px 60px 0px 60px;
     font-size: 0.5em;
+    display: flex;
+    align-items: center;
 }
 
 .logo h1 {
@@ -73,6 +74,7 @@ footer {
 
 .mobile-menu-icon {
     display: none;
+    align-items: center;
 }
 
 .mobile-menu {
