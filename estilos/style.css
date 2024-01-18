@@ -93,6 +93,7 @@ footer {
 
     .mobile-menu-icon {
         display: block;
+        margin-top: 9px;
     }
 
     .mobile-menu-icon button{
