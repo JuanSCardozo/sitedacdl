@@ -10,8 +10,13 @@
 }
 
 header {
-    background-color: rgb(0, 0, 196);
+    background-color: #3498db;
     box-shadow: 0px 3px 10px #464646;
+}
+
+main {
+    background-image: linear-gradient(135deg, #0000ff85, white);
+    background-attachment: fixed;
 }
 
 .navbar {
@@ -26,7 +31,7 @@ header {
 }
 
 .imglogo {
-    width: 28px;
+    width: 20px;
 }
 
 .patrociniomaster {
@@ -90,6 +95,7 @@ footer {
     width: 350px;
     height: 350px;
     overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.412);
 }
 
 .slides {
@@ -172,6 +178,33 @@ footer {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
     background-color: #fff;
 }
+
+/*seção cdl sub 18*/
+
+.cdl-sub18 {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.187);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.sub18-header {
+    background-color: #3498db;
+    border-radius: 10px;
+    width: 20px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 0.8em;
+    width: 300px;
+    padding: 5px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.816);
+}
+
+
+
 
 
 
