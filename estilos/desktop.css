@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 900px) {
+
+    .slider {
+        width: 700px;
+    }
+    
+    .slide {
+        width: 700px;
+    }
+
+    .slcel {
+        display: none;
+    }
+
+    .sldesk {
+        display: block;
+    }
+    
+    .manual-navigation {
+        position: absolute;
+        width: 700px;
+    }
+
+    #radio1:checked ~ .first {
+        margin-left: 0;
+    }
+    
+    #radio2:checked ~ .first {
+        margin-left: -200%;
+    }
+    
+    #radio3:checked ~ .first {
+        margin-left: -400%;
+    }
+    
+    #radio4:checked ~ .first {
+        margin-left: -600%;
+    }
+    
+    .navigation-auto {
+        width: 700px;
+    }
+
+}
