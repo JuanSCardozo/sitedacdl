@@ -82,59 +82,19 @@ footer {
     display: none;
 }
 
-@media screen and (max-width: 730px) {
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-
-    .navitem {
-        display: none;
-    }
-
-    .mobile-menu-icon {
-        display: block;
-        margin-top: 9px;
-    }
-
-    .mobile-menu-icon button{
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-
-    .mobile-menu .navitem {
-        display: block;
-        padding-top: 1.2rem;
-    }
-
-    .mobile-menu {
-        width: 100%;
-    }
-    
-    .open {
-        display: block;
-    }
-}
 
 /*slider*/
 
 .slider {
     margin: 0 auto;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     overflow: hidden;
 }
 
 .slides {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     display: flex;
 }
 
@@ -143,14 +103,14 @@ footer {
 }
 
 .slide {
-    width: 400px;
+    width: 350px;
     position: relative;
     transition: 1s;
 }
 
 .manual-navigation {
     position: absolute;
-    width: 400px;
+    width: 350px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -190,7 +150,7 @@ footer {
 
 .navigation-auto {
     position: absolute;
-    width: 400px;
+    width: 40350px;
     margin-top: 360px;
     display: flex;
     justify-content: center;
