@@ -40,3 +40,12 @@
         display: block;
     }
 }
+
+/*Configurações Slider*/
+
+.slider {
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
