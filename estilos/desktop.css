@@ -43,4 +43,59 @@
         width: 700px;
     }
 
+    /*Ultimos resultdos-sub18*/
+
+    .ultimosjogos {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Outfit';
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 10px;
+    }
+    
+    .jogo1 {
+        width: 210px;
+        height: 80px;
+    }
+    .jogo2 {
+        width: 210px;
+        height: 80px;
+    }
+    .jogo3 {
+        width: 210px;
+        height: 80px;
+    }
+    
+    .fase {
+        font-size: 1em;
+        font-weight: 600;
+    }
+    
+    .partida{
+        font-size: 0.9em;
+        margin: 2px 0px  2px 0px;
+        font-weight: 500;
+    }
+    
+    .dataplay {
+        font-size: 0.8em;
+    }
+    
+    
+    .escudo-equipe-lastresults-esquerda {
+        width: 12px;"
+    }
+    
+    .escudo-equipe-lastresults-direita {
+        width: 12px;
+    }
+
+    /*Tabela sub18*/
+
+    th, td {
+        padding: 20px;
+    }
+
 }

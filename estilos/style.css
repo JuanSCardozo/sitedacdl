@@ -303,6 +303,21 @@ th, td {
     text-align: left;
 }
 
+.vtc-sub18 {
+    background-color: #2980b9;
+    font-size: 0.6em;
+    width: 365px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+
+.vtc-sub18-a {
+    text-decoration: none;
+}
+
 
 
 
