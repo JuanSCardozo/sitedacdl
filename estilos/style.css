@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2? family= Outfit:wght@100;200;300;400;500;600;700;800;900 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit';
 }
 
 header {
@@ -227,33 +227,33 @@ footer {
     border-right: 1px solid rgba(0, 0, 0, 0.233);
     border-left: 1px solid rgba(0, 0, 0, 0.233);
     width: 110px;
-    height: 70px;
+    height: 60px;
     text-align: center;
 }
 .jogo2 {
     background-color: white;
     border-right: 1px solid rgba(0, 0, 0, 0.233);
     width: 110px;
-    height: 70px;
+    height: 60px;
     text-align: center;
 }
 .jogo3 {
     background-color: white;
     border-right: 1px solid rgba(0, 0, 0, 0.233);
     width: 110px;
-    height: 70px;
+    height: 60px;
     text-align: center;
 }
 
-.fase{
+.fase {
     font-size: 0.8em;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .partida{
     font-size: 0.6em;
-    margin: 6px 0px  7px 0px;
-    font-weight: bold;
+    margin: 2px 0px  2px 0px;
+    font-weight: 500;
 }
 
 .dataplay {
