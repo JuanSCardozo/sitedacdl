@@ -7,7 +7,6 @@ function menuShow() {
         menuMobile.classList.add('open')
         document.querySelector('.icon').src = "imagens/close_white_36dp.svg";
     }
-}
 
 let count = 1;
 document.getElementById("radio1").checked = true;
@@ -19,7 +18,7 @@ setInterval( function(){
 
 function nextImage(){
     count++;
-    if(count>4){
+    if(count>5){
         count = 1;
     }
 

@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 900px) {
+    
+/*header*/
+
+/*slider*/
 
     .slider {
         width: 700px;
@@ -37,6 +41,10 @@
     
     #radio4:checked ~ .first {
         margin-left: -600%;
+    }
+
+    #radio5:checked ~ .first {
+        margin-left: -800%;
     }
     
     .navigation-auto {
