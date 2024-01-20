@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Outfit:wght@100;200;300;400;500;600;700;800;900 & display=swap');
 
-@import url('https://fonts.googleapis.com/css2? família = Chakra + Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700 & display=swap' );
-
 * {
     margin: 0;
     padding: 0;
@@ -216,7 +214,6 @@ footer {
 
 .ultimosjogos {
     display: flex;
-    gap: 2px;
     flex-wrap: wrap;
     font-family: 'Outfit';
     justify-content: center;
@@ -229,38 +226,34 @@ footer {
     background-color: white;
     border-right: 1px solid rgba(0, 0, 0, 0.233);
     border-left: 1px solid rgba(0, 0, 0, 0.233);
-    border-top: 1px solid rgba(0, 0, 0, 0.233);
     width: 110px;
     height: 70px;
     text-align: center;
 }
 .jogo2 {
-    background-color: chartreuse;
+    background-color: white;
     border-right: 1px solid rgba(0, 0, 0, 0.233);
-    border-left: 1px solid rgba(0, 0, 0, 0.233);
-    border-top: 1px solid rgba(0, 0, 0, 0.233);
     width: 110px;
     height: 70px;
     text-align: center;
 }
 .jogo3 {
-    background-color: aquamarine;
+    background-color: white;
     border-right: 1px solid rgba(0, 0, 0, 0.233);
-    border-left: 1px solid rgba(0, 0, 0, 0.233);
-    border-top: 1px solid rgba(0, 0, 0, 0.233);
     width: 110px;
     height: 70px;
     text-align: center;
 }
 
 .fase{
-    font-size: 0.9em;
-    font-weight: normal;
+    font-size: 0.8em;
+    font-weight: 500;
 }
 
 .partida{
-    font-size: 0.7em;
-    margin: 8px 0px ;
+    font-size: 0.6em;
+    margin: 6px 0px  7px 0px;
+    font-weight: bold;
 }
 
 .dataplay {
