@@ -7,15 +7,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Outfit';
-    text-transform: capitalize;
     text-decoration: none;
+}
+
+header {
+    background-color: #3498db;
+    box-shadow: 0px 3px 10px #464646;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 6rem;
+    padding: 1rem 3rem;
 }
+
 
 .logo {
     display: flex;
@@ -23,40 +28,45 @@
 }
 
 .imglogo {
-    width: 28px;
+    width: 20px;
 }
 
 .patrociniomaster {
     color: white;
     padding: 10px;
-    margin: 0px 60px 0px 60px;
     font-size: 0.5em;
-}
-
-.logo h1 {
-    color: white;
-}
-
-.navlist {
     display: flex;
     align-items: center;
 }
 
-.navlist ul {
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
     display: flex;
     justify-content: center;
     list-style: none;
 }
 
-.navitem {
+.nav-item {
     margin: 0 15px;
-}
+} 
 
-.navlink {
+.nav-link {
     text-decoration: none;
     font-size: 1.15rem;
     color: white;
     font-weight: 400;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
 }
 
 main {
@@ -67,13 +77,13 @@ main {
 body {
     min-height: 100vh;
     background-image: linear-gradient(135deg, #0000ff85, white);
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
 
 main {
     background-color: white;
-    height: 100vh;
 }
 
 footer {
@@ -319,6 +329,20 @@ th, td {
 
 .vtc-sub18-a {
     text-decoration: none;
+}
+
+/*anuncio*/
+
+.div-anuncio {
+    background-color: white;
+}
+
+.anuncio {
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    background-color: blue;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.36);
 }
 
 

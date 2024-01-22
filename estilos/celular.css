@@ -2,34 +2,23 @@
 
 @media screen and (max-width: 730px) {
     
-}
+/*header*/
 
-/*Configurações Slider*/
-
-.slider {
-    margin: 0 auto;
-    width: 350px;
-    height: 350px;
-    overflow: hidden;
-}
-
-/*ultimos jogos*/
-
-/*Header*/
 .nav-bar {
-    padding: 1.5rem 4rem;
+    padding: 1.5rem;
 }
 
-.navitem {
+.nav-item {
     display: none;
+    padding-bottom: 9px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.057);
 }
 
 .mobile-menu-icon {
     display: block;
-    margin-top: 9px;
 }
 
-.mobile-menu-icon button{
+.mobile-menu-icon button {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -42,17 +31,29 @@
     padding-bottom: 1rem;
 }
 
-.mobile-menu .navitem {
+.mobile-menu .nav-item {
     display: block;
     padding-top: 1.2rem;
-}
-
-.mobile-menu {
-    width: 100%;
 }
 
 .open {
     display: block;
 }
+
+/*Configurações Slider*/
+
+.slider {
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
 }
 
+/*ultimos jogos*/
+}
+
+/*Anuncio*/
+.anuncio {
+    width: 350px;
+    height: 100px;
+}
