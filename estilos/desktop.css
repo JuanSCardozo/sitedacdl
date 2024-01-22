@@ -110,7 +110,15 @@
 
     .anuncio {
         width: 650px;
-        height: 150px;
+        height: 170px;
+    }
+
+    .anccel {
+        display: none;
+    }
+
+    .ancdesk {
+        display: block;
     }
 
 

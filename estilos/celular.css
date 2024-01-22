@@ -1,6 +1,6 @@
 /*Para Celular*/
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 900px) {
     
 /*header*/
 
@@ -56,4 +56,8 @@
 .anuncio {
     width: 350px;
     height: 100px;
+}
+
+.ancdesk {
+    display: none;
 }
