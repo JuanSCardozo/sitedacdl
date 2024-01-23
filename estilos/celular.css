@@ -61,3 +61,13 @@
 .ancdesk {
     display: none;
 }
+
+/*noticia*/
+
+.img-noticia-index-1  {
+    display: block;
+}
+
+.desc-noticia-index-1  {
+    display: block;
+}

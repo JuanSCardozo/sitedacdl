@@ -342,7 +342,48 @@ th, td {
     width: 700px;
     margin: auto;
     background-color: blue;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.36);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.36)
+}
+
+.noticia-index-1 {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.img-noticia-index-1 {
+    background: url(../imagens/noticias/PRIMEIRA\ RODADA\ \(3\).png);
+    background-size: 350px;
+    background-position: center center;
+    width: 350px;
+    height: 250px;
+    margin: auto;
+}
+
+.img-noticia-index-1 h1 {
+    color: white;
+    text-shadow: 1px 2px 2px black;padding: 180px 10px;
+}
+
+.desc-noticia-index-1 {
+    background: url(../imagens/noticias/fundo-de-papel-antigo-estilo-grunge-com-vincos-e-manchas.jpg);
+    width: 350px;
+    height: 250px;
+    margin: auto;
+}
+
+.desc-noticia-index-1 h1 {
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 1.2em;
+}
+
+.desc-noticia-index-1 p {
+    text-indent: 10px;
+    text-align: justify;
+    padding: 15px ;
+    font-size: 1em;
 }
 
 
