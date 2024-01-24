@@ -86,13 +86,6 @@ main {
     background-color: white;
 }
 
-footer {
-    background-color: black;
-    color: white;
-}
-
-
-
 /*slider*/
 
 .slider {
@@ -502,8 +495,54 @@ p.data-noticia {
     font-size: 1em;
 }
 
-/*CSS da Página Sobre*/
+/*footer*/
 
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.redes-footer {
+    padding-top: 30px;
+}
+
+.info-redes h4 {
+    font-weight: normal;
+}
+
+.redes-footer img:nth-last-child(1n){
+    margin-left: 10px;
+}
+
+.linefooter {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 170px;
+    opacity: 20%;
+}
+
+.contatoscdl {
+    margin-top: 20px;
+}
+
+.contatoscdl h4{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.contatoscdl p{
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.cop {
+    font-size: 0.8em;
+    margin: 30px auto 0px auto;
+    align-items: end;
+}
 
 
 
