@@ -122,9 +122,35 @@
     }
 
 
+/*noticias*/
 
+.img-noticia-index-1 {
+    background-size: 700px;
+    width: 700px;
+    height: 500px;
+    padding-top: 200px;
+    font-size: 30px;
+}
 
+.desc-noticia-index-1 {
+    width: 700px;
+    height: 300px;
+    font-size: 1.5em;
+}
 
+.img-noticia-index-2 {
+    background-size: 700px;
+    width: 700px;
+    height: 500px;
+    padding-top: 200px;
+    font-size: 30px;
+}
+
+.desc-noticia-index-2 {
+    width: 700px;
+    height: 300px;
+    font-size: 1.5em;
+}
 
 
 

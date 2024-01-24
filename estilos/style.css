@@ -448,6 +448,61 @@ p.data-noticia {
     text-align: right;
 }
 
+.cdl-feminino {
+    border-top: 1px solid rgba(0, 0, 0, 0.078);
+    background-color: white;
+    width: 100%;
+    padding: 20px 10px;
+    background-attachment: fixed;
+}
+
+.primeiraparte-feminino {
+    display: none;
+}
+
+.noticia-index-3 {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.img-noticia-index-3 {
+    background: url(../imagens/backgrounds/1.png);
+    background-size: 350px;
+    background-position: center center;
+    width: 350px;
+    height: 250px;
+    margin: auto;
+    font-size: 0.9em;
+}
+
+.img-noticia-index-3 h1 {
+    color: white;
+    text-shadow: 1px 2px 2px black;padding: 180px 10px;
+}
+
+.desc-noticia-index-3 {
+    background: url(../imagens/noticias/fundo-de-papel-antigo-estilo-grunge-com-vincos-e-manchas.jpg);
+    width: 350px;
+    height: 250px;
+    margin: auto;
+}
+
+.desc-noticia-index-3 h1 {
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 1.2em;
+}
+
+.desc-noticia-index-3 p {
+    text-indent: 10px;
+    text-align: justify;
+    padding: 15px 15px 0 15px;
+    font-size: 1em;
+}
+
+
 
 
 
