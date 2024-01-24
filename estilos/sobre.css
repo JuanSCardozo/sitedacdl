@@ -10,7 +10,11 @@
 }
 
 body {
-    background-image: linear-gradient();
+    min-height: 100vh;
+    background-image: linear-gradient(135deg, #0000ff85, white);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 header {
@@ -72,6 +76,40 @@ header {
     display: none;
 }
 
+.sobre {
+    background: #ffffffd8;
+    width: 350px;
+    height: auto;
+    margin: auto;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.296);
+}
+
+.quem-somos-nos {
+    text-align: center;
+    padding: 10px;
+}
+
+.quem-somos-nos-p {
+    text-align: justify;
+    font-size: 0.9em;
+    text-indent: 10px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.missao {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #ffffffd8;
+    padding: 10px;
+}
+
+.missao h1 {
+    text-align: center;
+}
 
 
 
