@@ -16,6 +16,10 @@ body {
     background-size: cover;
     background-position: center;
 }
+main {
+    background-color: white;
+    height: auto;
+}
 
 header {
     background-color: #3498db;
@@ -202,7 +206,53 @@ padding-top: 40px;
     padding-left: 10px;
 }
 
+/*Tabela*/
 
+.titulodatabela{
+    background-color: #464646;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 3px;
+    margin: 20px;
+}
+
+.tabelafasedegrupos {
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+}
+
+th, td {
+    padding: 4.5px;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.classificado {
+    color: green;
+}
+
+.eliminado {
+    color: red;
+}
+.div {
+    border-top: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.imgt {
+    margin-right: 8px;
+}
+
+.equipe-tabela-sub18 {
+    text-align: left;
+}
 
 /*fim do main*/
 
