@@ -133,15 +133,24 @@ padding-top: 40px;
 } 
 
 .cdlsub18c-todosjogos {
+    background-color: #3498db;
+    border-radius: 10px;
+    padding: 3px;
+    margin: auto;
+    width: 200px;
+    font-size: 1em;
     text-align: center;
 }
 
-.primeira-rodada {
+.rodada {
     margin-top: 20px;
     text-align: center;
 }
 
-.primeira-rodada h5 {
+.rodada h5 {
+    background-color: #464646;
+    color: white;
+    padding: 10px;
     font-size: 1em;
 }
 
@@ -162,12 +171,17 @@ padding-top: 40px;
     justify-content: center;
 }
 
+.data-ptd {
+    font-size: 0.7em;
+}
+
 .destaques-da-partida {
     margin-top: 10px;
     display: flex;
     height: 100px;
-    font-size: 0.6em;
+    font-size: 0.7em;
 }
+
 
 .time-mandante {
     width: 160px;
