@@ -76,6 +76,70 @@ header {
     display: none;
 }
 
+/*main*/
+.copadosleksub18completa {
+background-color: white;
+}
+
+.cdlsub18c-header {
+text-align: center;
+padding-top: 40px;
+}
+
+.cdlsub18c-header h1 {
+    background-color: #3498db;
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    font-size: 1.4em;
+    width: 330px;
+} 
+
+.cdlsub18c-header h2 {
+    margin-top: 10px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.cdlsub18c-grupos {
+    margin: auto;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cdlsub18c-grupoa {
+    margin-top: 20px;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.120);
+    margin-bottom: 30px;
+} 
+
+.cdlsub18c-grupoa img {
+    margin-top: 10px;
+} 
+
+.cdlsub18c-grupob img {
+    margin-top: 10px;
+} 
+
+.cdlsub18c-grupob {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding:30px;
+    border: 1px solid rgba(0, 0, 0, 0.120);
+    border-left: none;
+} 
+
+.cdlsub18c-todosjogos {
+    text-align: center;
+}
+
+
+
+/*fim do main*/
+
 footer {
     background-color: black;
     color: white;
