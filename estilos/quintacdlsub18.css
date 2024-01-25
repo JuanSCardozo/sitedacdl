@@ -136,6 +136,58 @@ padding-top: 40px;
     text-align: center;
 }
 
+.primeira-rodada {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.primeira-rodada h5 {
+    font-size: 1em;
+}
+
+.cdlsub18c-partida {
+    margin: auto;
+    width: 320px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.120);
+}
+
+.cdlsub18c-partida h6{
+    font-size: 1em;
+}
+
+.cdlsub18c-jogo {
+    display: flex;
+    justify-content: center;
+}
+
+.destaques-da-partida {
+    margin-top: 10px;
+    display: flex;
+    height: 100px;
+    font-size: 0.6em;
+}
+
+.time-mandante {
+    width: 160px;
+    border-right:  1px solid rgba(0, 0, 0, 0.120);
+    text-align: right;
+}
+
+.time-mandante p {
+    padding-right: 10px;
+}
+
+.time-visitante {
+    width: 160px;
+    text-align: left;
+}
+
+.time-visitante p {
+    padding-left: 10px;
+}
+
 
 
 /*fim do main*/
