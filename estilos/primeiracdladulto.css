@@ -189,6 +189,12 @@ padding-top: 40px;
     font-size: 0.7em;
 }
 
+.destaques-da-partida-gpc {
+    margin-top: 10px;
+    display: flex;
+    height: 125px;
+    font-size: 0.7em;
+}
 
 .time-mandante {
     width: 160px;
