@@ -17,10 +17,7 @@ body {
     background-position: center;
 }
 
-main {
-    background-color: white;
-    height: auto;
-}
+/*header*/
 
 header {
     background-color: #3498db;
@@ -79,6 +76,11 @@ header {
 
 .mobile-menu {
     display: none;
+}
+
+main {
+    background-color: white;
+    height: auto;
 }
 
 /*main*/
@@ -405,4 +407,3 @@ footer {
     margin: 30px auto 0px auto;
     align-items: end;
 }
-
