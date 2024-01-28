@@ -182,7 +182,7 @@ padding-top: 40px;
 .destaques-da-partida {
     margin-top: 10px;
     display: flex;
-    height: 100px;
+    height: 110px;
     font-size: 0.7em;
 }
 
@@ -298,7 +298,7 @@ th, td {
 /*Artilharia*/
 
 .artilharia {
-    margin: 20px auto 20px auto;
+    margin: 20px autoauto;
 
 }
 
@@ -310,6 +310,51 @@ th, td {
     padding: 3px;
     margin: 20px 0 20px 0;
 }
+
+.artilharia table {
+    font-size: 1.1em;
+}
+
+.zebrado {
+    background-color: rgba(128, 128, 128, 0.394);
+}
+
+.artilharia th, td {
+    padding-top: 7px;
+    padding: 10px;
+}
+
+/*Goleiro menos vazado*/
+
+.goleiro-mv {
+    margin: 20px autoauto;
+
+}
+
+.goleiro-mv h1 {
+    background-color: #464646;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 3px;
+    margin: 20px 0 20px 0;
+}
+
+.goleiro-mv table {
+    font-size: 1.1em;
+}
+
+.zebrado {
+    background-color: rgba(128, 128, 128, 0.394);
+}
+
+.goleiro-mv th, td {
+    padding-top: 7px;
+    padding: 10px;
+}
+
+
+
 
 /*fim do main*/
 
