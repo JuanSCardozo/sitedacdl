@@ -11,7 +11,7 @@
 
 body {
     min-height: 100vh;
-    background-image: linear-gradient(135deg, #0000ff85, white);
+    background-color: white;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -81,6 +81,163 @@ header {
 main {
     background-color: white;
 }
+
+.maiorcampeao {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px auto 0px auto;
+    justify-content: space-evenly;
+}
+
+.sub19 {
+    border:1px solid #464646;
+    width: 150px;
+}
+
+.sub19 h4 {
+    font-size: 0.8em;
+    background-color: #3498db;
+    color: white;
+    border-top:1px solid #464646;
+}
+.sub19 p {
+    font-size: 0.6em;
+    background-color: #3498db;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.maiorcampeao h2 {
+    font-size: 1em;
+    padding: 8px;
+}
+
+.maiorcampeao img {
+    width: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.adulto {
+    border:1px solid #464646;
+    width: 150px;
+}
+
+.adulto h4 {
+    font-size: 0.8em;
+    background-color: #3498db;
+    color: white;
+    border-top:1px solid #464646;
+}
+.adulto p {
+    font-size: 0.6em;
+    background-color: #3498db;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.ma-sub19 {
+    text-align: center;
+    border: 1px solid #464646;
+    width: 250px;
+    margin: 10px auto ;
+}
+
+.ma-sub19 h4 {
+    padding: 10px;
+}
+
+.ma-sub19 .jogador {
+    padding-bottom: 10px;
+}
+
+.ma-adulto {
+    text-align: center;
+    border: 1px solid #464646;
+    width: 250px;
+    margin: 10px auto ;
+}
+
+.ma-adulto h4 {
+    padding: 10px;
+}
+
+.ma-adulto .jogador {
+    padding-bottom: 10px;
+}
+
+.equipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 10px;
+}
+
+.gols {
+    border-top: 1px solid #464646;
+    padding: 5px;
+    background-color: #3498db;
+    color: white;
+}
+
+.destaquescasa {
+    
+}
+
+.destaquesfora {
+    
+}
+
+.maiorgoleada {
+}
+
+table {
+    border: 1px solid #464646;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+table .title {
+    background-color: #3498db;
+    color: white;
+    font-weight: normal;
+}
+
+table .timecasa {
+    width: 90px;
+    font-size: 0.8em;
+    text-align: right;
+    padding-right: 2px;
+}
+table .timefora {
+    width: 90px;
+    font-size: 0.8em;
+    text-align: left;
+    padding-left: 2px;
+}
+
+table .escudo {
+    padding: 5px;
+}
+
+table .placar {
+    padding: 3px;
+}
+
+table .destaquescasa {
+}
+
+table .div {
+    background-image: url(../imagens/gerais/linha.png);
+}
+
+table tr, td {
+}
+
 
 /*footer*/
 
