@@ -192,23 +192,70 @@ li.cada {
 /*footer*/
 
 footer {
-    margin-top: 50px;
     background-color: black;
     color: white;
-    padding: 30px;
+    padding: 0px;
     text-align: center;
 }
 
 .redes-footer {
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .info-redes h4 {
+    padding-top: 20px;
     font-weight: normal;
 }
 
 .redes-footer img:nth-last-child(1n){
     margin-left: 10px;
+}
+
+
+.patrocinadores {
+    display: flex;
+}
+
+.patrotitle {
+    padding-bottom: 30px;
+}
+
+.patrocinadorn {
+    margin: 30px auto;
+    border: 1px solid rgba(255, 255, 255, 0.257);
+    width: 150px;
+    height: 100px;
+}
+
+.patrocinador {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.257);
+    width: 120px;
+    height: 100px;
+}
+
+.apotitle {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.apoiadores {
+    display: flex;
+}
+
+.apoiadores2 {
+    margin-top: 10px;
+    display: flex;
+}
+
+.apoiador {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.257);
+    width: 120px;
+    height: 100px;
 }
 
 .linefooter {
@@ -234,6 +281,7 @@ footer {
 }
 
 .cop {
+    padding-bottom: 30px;
     font-size: 0.8em;
     margin: 30px auto 0px auto;
     align-items: end;
