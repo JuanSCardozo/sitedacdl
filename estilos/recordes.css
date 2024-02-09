@@ -183,22 +183,22 @@ main {
     color: white;
 }
 
-.destaquescasa {
-    
-}
+.destaque{
 
-.destaquesfora {
-    
 }
 
 .maiorgoleada {
+    width: ;
 }
 
 table {
-    border: 1px solid #464646;
+    border-top: 1px solid #464646;
+    border-right: 1px solid #464646;
+    border-left: 1px solid #464646;
     border-collapse: collapse;
     text-align: center;
     margin: auto;
+    width: 300px;
 }
 
 table .title {
@@ -235,8 +235,69 @@ table .div {
     background-image: url(../imagens/gerais/linha.png);
 }
 
-table tr, td {
+.destaques {
+    border-right: 1px solid #464646;
+    border-left: 1px solid #464646;
+    border-bottom: 1px solid #464646;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    display: flex;
 }
+
+.destaquecasa {
+    border-right: 1px solid #464646;
+    width: 150px;
+}
+
+.destaquefora {
+    width: 150px;
+}
+
+.maisgols {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px auto 10px auto;
+    justify-content: space-evenly;
+}
+
+.sub19 {
+    border:1px solid #464646;
+    width: 150px;
+}
+
+.sub19 h4 {
+    font-size: 0.8em;
+    background-color: #3498db;
+    color: white;
+    border-top:1px solid #464646;
+}
+.sub19 p {
+    font-size: 0.6em;
+    background-color: #3498db;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.maisgols h2 {
+    font-size: 1em;
+    padding: 8px;
+}
+
+.maisgols img {
+    width: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.maisgols .nomedotime {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+
 
 
 /*footer*/
