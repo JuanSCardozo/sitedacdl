@@ -17,7 +17,8 @@ header {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     padding: 1rem 3rem;
 }
 
@@ -28,7 +29,8 @@ header {
 }
 
 .imglogo {
-    width: 20px;
+    width: 70px;
+
 }
 
 .patrociniomaster {
@@ -522,9 +524,11 @@ footer {
 
 .patrocinadorn {
     margin: 30px auto;
-    border: 1px solid rgba(255, 255, 255, 0.257);
     width: 150px;
-    height: 100px;
+}
+
+.patrocinadorn img {
+    width: 150px;
 }
 
 .patrocinador {
