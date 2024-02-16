@@ -29,7 +29,7 @@ header {
 }
 
 .imglogo {
-    width: 70px;
+    width: 20px;
 
 }
 
@@ -524,7 +524,10 @@ footer {
 
 .patrocinadorn {
     margin: 30px auto;
+    
+    border: 1px solid rgba(255, 255, 255, 0.257);
     width: 150px;
+    height: 100px;
 }
 
 .patrocinadorn img {
